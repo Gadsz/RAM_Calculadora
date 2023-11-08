@@ -51,6 +51,7 @@ main {
 .mobile-menu {
     display: none;
     cursor: pointer;
+    
 }
 
 .mobile-menu div {
