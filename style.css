@@ -29,9 +29,12 @@ nav {
 }
 
 main {
-   background: url("gadsz_crop.png") no-repeat center center;
+   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("computador.jpg") no-repeat center center;
    background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
    height: 92vh;
+   width: auto;
 }
 
 .nav-list {
