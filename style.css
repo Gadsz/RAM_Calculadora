@@ -42,6 +42,8 @@ main {
     display: flex;
 }
 
+/*TESTE*/
+
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
@@ -117,6 +119,8 @@ main {
     background: #23232e;
     padding: 8vh;
 }
+
+/*Rodapé do site*/
 
 .rodape .rodape-card {
     display: flex;

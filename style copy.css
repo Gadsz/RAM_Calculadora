@@ -37,6 +37,8 @@ main {
    width: auto;
 }
 
+
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -113,6 +115,48 @@ main {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
+/*Avatar sobre o autor*/
+
+
+.containner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 540px; /*quebra o site para mobile mas funciona pra espaçar a imagem*/
+    background-color: #23232e;
+}
+
+.containner firegure.avatar {
+    width: auto;
+    height: auto;
+}
+
+img {
+    width: 360px;
+    height: 100%;
+    padding: 40px;
+    margin: 20px 50px;
+}
+
+h1 {
+    background: #23232e
+}
+
+img, p {
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 23px;
+    padding: 40px;
+    margin: 20px 50px;
+    
+}
+
+/*Fim avatar sobre o autor*/
+
 .rodape {
     background: #23232e;
     padding: 8vh;
@@ -127,6 +171,8 @@ main {
 }
 
 .rodape {
+    background: #23232e;
+    padding: 8vh;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-}
+  }
