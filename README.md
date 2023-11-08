@@ -1,2 +1,2 @@
-# RAM_Calculadora
-Calculadora de latência de RAM com base no CL e frequência.
+# Estudos_web1
+Estudos sobre a disciplina web 1
