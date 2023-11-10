@@ -14,11 +14,11 @@ a:hover {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-
+/*Navbar*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -26,6 +26,7 @@ nav {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #23232e;
     height: 7vh;
+    align-items: center;
 }
 
 main {
@@ -34,24 +35,26 @@ main {
    background-attachment: fixed;
    background-position: center;
    height: 85vh;
-   width: auto;
+   width: auto; 
 }
+
+
 
 .nav-list {
     list-style: none;
     display: flex;
 }
 
-/*TESTE*/
-
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    padding-block: 16px;
 }
 
 .mobile-menu {
     display: none;
     cursor: pointer;
+    
 }
 
 .mobile-menu div {
