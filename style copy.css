@@ -49,13 +49,13 @@ main {
 }
 
 .mobile-menu {
-    display: none;
+    display: flex;
     cursor: pointer;
     
 }
 
 .mobile-menu div {
-    width: 32px;
+    width: 32px;/*menu hamburguer tamanho só pra mexer com zoom deixar 32px como padrão*/
     height: 2px;
     background: #fff;
     margin: 8px;
@@ -68,7 +68,7 @@ main {
     }
     .nav-list {
         position: absolute;
-        top: 9vh;
+        top: 7vh;/*altura da nav bar mobile quando expande pra esquerda*/
         right: 0;
         width: 100vw;
         height: 8vh;
