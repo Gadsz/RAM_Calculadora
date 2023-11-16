@@ -5,8 +5,8 @@
 }
 /*Cor da fonte e trasição quando da refresh*/
 a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
+    text-decoration: none !important;
     transition: 0.3s;
 }
 
@@ -37,7 +37,7 @@ main {
    background-attachment: fixed;
    background-position: center;
    height: 85vh;
-   width: auto; 
+   width: 100%;
 }
 
 
@@ -165,6 +165,7 @@ p {
 .rodape {
     background: #23232e;
     padding: 8vh;
+    
 }
 
 .rodape {
