@@ -8,9 +8,10 @@
     <title>Calculadora de RAM</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="fox_icon.png" type="image/x-icon">
+    
 </head>
     
-<body>
+<body style="background: #363636 url(computador.png) no-repeat center fixed; background-size: cover;">
     <header>
         <nav>
             <a class="logo" href="/">Calculadora de latência de RAM</a>
@@ -26,14 +27,71 @@
                 <li><a href="https://www.linkedin.com/in/gabriel-a-s/">Contatos</a></li>
             </ul>
         </nav>
-    
     </header>
-    <main></main>
+    <main>
+
+    <div class="background-image">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="calculator-container">
+            <p>Esta é uma calculadora de latência de RAM. Insira a taxa de dados (MT/s) e a latência CAS (CL), em seguida, ela irá calcular a latência absoluta para acessos à memória DDR em nanossegundos.</p>
+
+            <script>
+
+                function calcMemoryLatency( dataRate, casLatency ) {
+                    if( dataRate < 1.0 ) {
+                        dataRate = 1.0;
+                    }
+                    if( casLatency < 1.0 ) {
+                        casLatency = 1.0;
+                    }
+                
+                    return ( 1.0/( dataRate/2.0 )*casLatency )*1000.0;
+                }
+                
+            </script>
+            
+            <div style="margin-left: 1.5em;">
+                <p>
+                    <b>MT/s:</b>
+                    <input style="width: 6em;" type="number" onchange="doUpdate();" id="ddr_mts" value="3000">
+                    <b style="margin-left: 1em;">CL:</b>
+                    <input style="width: 3.5em;" type="number" onchange="doUpdate();" id="ddr_cl" value="15">
+                    <br><br>
+                    Calculado em nanosegundos:
+                </p>
+                <div id="ddr_result" class="result-container">10</div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        doUpdate();
+        function doUpdate() {
+        
+            var dataRate = Number( document.getElementById( "ddr_mts" ).value );
+            var casLatency = Number( document.getElementById( "ddr_cl" ).value );
+            
+            var nanoseconds = calcMemoryLatency( dataRate, casLatency );
+        
+            document.getElementById( "ddr_result" ).innerHTML = nanoseconds.toString().substr( 0, 10 );    
+        }
+        </script>
+
+    </main>
     <script src="mobile-navbar.js"></script>
 
     <section id="rodape" class="rodape">
         <h1 class="rodape-title">© 2023 Gadsz | Contato: <a href="https://www.linkedin.com/in/gabriel-a-s/">Linkedin</a></h1>
-
+    </section>
 </body>
 
 </html>
