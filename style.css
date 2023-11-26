@@ -18,7 +18,7 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-    
+
 /* Navbar */
 nav {
     display: flex;
@@ -122,6 +122,7 @@ nav {
 /* Calculadora estilização */
 
 .calculator-container {
+    text-align: center;
     width: 80%;
     max-width: 600px;
     margin: auto; /* Centraliza horizontalmente */
