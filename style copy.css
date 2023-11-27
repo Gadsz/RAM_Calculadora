@@ -6,8 +6,8 @@
 }
 /*Cor da fonte e trasição quando da refresh*/
 a {
-    color: #fff !important;
-    text-decoration: none !important;
+    color: #fff ;
+    text-decoration: none;
     transition: 0.3s;
 }
 
@@ -19,7 +19,6 @@ a:hover {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    padding: 30px;
 }
 /*Navbar*/
 nav {
@@ -172,3 +171,4 @@ p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
