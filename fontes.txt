@@ -1,3 +1,6 @@
-https://unsplash.com/pt-br/fotografias/telefone-de-mesa-ip-preto-e-branco-na-mesa-de-madeira-marrom-anaUCgS2fqE
+https://unsplash.com/pt-br/fotografias/telefone-de-mesa-ip-preto-e-branco-na-mesa-de-madeira-marrom-anaUCgS2fqE <Foto do computador antigo>
 
-foto do computador antigo
+<Restante das ilustrações pertencem ao autor deste repositório>
+
+<Código dos cálculos da calculadora original de https://notkyon.moe/ adaptado para este contexto, todos os direitos reservados ao autor>
+
